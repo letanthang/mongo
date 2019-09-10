@@ -9,8 +9,8 @@ import (
 )
 
 type Counter struct {
-	ID  int `json:"id" bson:"id"`
-	Seq int `json:"seq" bson:"seq"`
+	ID  string `json:"id" bson:"id"`
+	Seq int    `json:"seq" bson:"seq"`
 }
 
 func GetNextID(collection *mongo.Collection, sequenceName string) (int, error) {
