@@ -1,4 +1,4 @@
-module github.com/letanthang/mongo_sequence
+module github.com/letanthang/mongo
 
 go 1.13
 
