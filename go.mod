@@ -3,6 +3,7 @@ module github.com/letanthang/mongo
 go 1.13
 
 require (
+	github.com/go-delve/delve v1.3.2
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c // indirect
